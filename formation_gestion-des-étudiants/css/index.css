@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Gothic+A1&family=League+Spartan:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* body {
+    display: flex;
+} */
+
+form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+    border: 2px solid gray;
+    background-color: rgb(241,241,241);
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.7) ;
+}
+
+form input {
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    border: solid 2px gray;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    height: 40px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Légère augmentation de la taille du bouton */
+}

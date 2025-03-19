@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>formulaire</title>
+</head>
+<body>
+    <form action="../php/connexion.php" method="post">
+        <h1>Gestion d'un formulaire</h1>
+
+        <label for="nom" id="nom">Entrer votre nom</label>
+        <input type="text" placeholder="Nom" name="nom" required maxlength="100">
+
+        <label for="prenom" id="prenom">Entrer votre prénom</label>
+        <input type="text" placeholder="Prénom" name="prenom" required maxlength="100">
+
+        <label for="email" id="email">Entrer votre email</label>
+        <input type="email" placeholder="E-mail" name="email" required maxlength="100">
+
+        <label for="tel" id="tel">Entrer votre téléphone </label>
+        <input type="number" placeholder="tel" name="tel" required maxlength="100" min="0">
+
+        <input type="submit" value=" Envoyer ">
+
+    </form>
+</body>
+</html>
+
